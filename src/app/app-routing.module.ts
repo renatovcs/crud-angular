@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
-import { RouterOutlet, RouterModule, Routes } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
+//import { CoursesComponent } from './courses/courses.component'; // importe o componente desejado
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'courses'},
